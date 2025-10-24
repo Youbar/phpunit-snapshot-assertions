@@ -3,7 +3,7 @@
 namespace Youbar\Snapshots;
 
 use Illuminate\Testing\TestResponse;
-use OwowAgency\Snapshots\Drivers\JsonStructureDriver;
+use Youbar\Snapshots\Drivers\JsonStructureDriver;
 use Spatie\Snapshots\MatchesSnapshots as BaseMatchesSnapshots;
 
 trait MatchesSnapshots
