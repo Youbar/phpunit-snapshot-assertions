@@ -52,13 +52,7 @@ class JsonStructureDriver extends JsonDriver
     {
         $function = function (&$value, $key) {
             if (!is_array($value)) {
-                if (
-                    preg_match("/(?<![a-zA-Z])id(?![a-zA-Z])/", $key)
-                    && is_numeric($value)
-                ) {
-                    // If the attribute is an id, don't alter $value
-
-                } elseif (preg_match("/\d{4}-\d{2}-\d{2}/", $value)) {
+                if (preg_match("/\d{4}-\d{2}-\d{2}/", $value)) {
                     // If the attribute is a date or datetime, get its date format
                     
                     $value = preg_replace("/\d/", "X", $value);
