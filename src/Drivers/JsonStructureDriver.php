@@ -1,6 +1,6 @@
 <?php
 
-namespace OwowAgency\Snapshots\Drivers;
+namespace Youbar\Snapshots\Drivers;
 
 use PHPUnit\Framework\Assert;
 use Spatie\Snapshots\Drivers\JsonDriver;

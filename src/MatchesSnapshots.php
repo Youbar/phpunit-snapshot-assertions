@@ -1,6 +1,6 @@
 <?php
 
-namespace OwowAgency\Snapshots;
+namespace Youbar\Snapshots;
 
 use Illuminate\Testing\TestResponse;
 use OwowAgency\Snapshots\Drivers\JsonStructureDriver;

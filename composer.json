@@ -1,5 +1,5 @@
 {
-    "name": "owowagency/phpunit-snapshot-assertions",
+    "name": "youbar/phpunit-snapshot-assertions",
     "description": "An extension of the spatie/phpunit-snapshot-assertions package.",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Albert Pratomo",
             "email": "albert@owow.io"
+        },
+        {
+            "name": "Younes El Barnoussi",
+            "email": "younes@youbar.nl"
         }
     ],
     "require": {
@@ -14,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OwowAgency\\Snapshots\\": "src"
+            "Youbar\\Snapshots\\": "src"
         }
     }
 }
